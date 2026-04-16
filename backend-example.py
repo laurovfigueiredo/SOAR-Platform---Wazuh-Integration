@@ -369,7 +369,7 @@ def health_check():
 
 if __name__ == '__main__':
     # Modo desenvolvimento
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=55050, debug=True)
     
     # Para produção, use Gunicorn:
     # gunicorn -w 4 -b 0.0.0.0:5000 app:app
